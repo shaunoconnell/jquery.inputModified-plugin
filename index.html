@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>- Sample Plugin -</title>
+
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="jquery.inputModified.js" type="text/javascript"></script>
+</head>
+<body>
+	
+	<a href="javascript:void(0);" id="linkButton">click</a>
+	<div id="somestuff">test</div>
+	
+	<input id="txt" type="text"/>
+	<hr/>
+	<div id="targetDiv"></div>
+	
+	
+	<script type="text/javascript">
+		$(function(){
+			$("#txt").inputModified(function() {
+				console.log("...do things with " + this.value);
+			});
+		});
+	</script>
+</body>
+</html>
