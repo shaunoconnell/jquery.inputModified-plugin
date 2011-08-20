@@ -1,0 +1,5 @@
+# Makes detecting change and acting on them from user input easy on different browsers.
+
+derived from 
+
+http://whattheheadsaid.com/2010/09/effectively-detecting-user-input-in-javascript
